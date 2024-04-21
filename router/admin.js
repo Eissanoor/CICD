@@ -51,7 +51,7 @@ router.get("/test", async (req, res) =>
 
     res.status(200).json({
       status: 200,
-      message: "Success",
+      message: "Success cicd pipline",
       data: null,
     });
   } catch (error) {
