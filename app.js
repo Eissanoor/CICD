@@ -6,7 +6,7 @@ dotenv.config({ path: "./config.env" });
 var PORT = process.env.PORT||3030;
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-require("./database/db");
+// require("./database/db");
 var admin = require("./router/admin");
 app.use(admin);
 var swaggerUi = require("swagger-ui-express"),
